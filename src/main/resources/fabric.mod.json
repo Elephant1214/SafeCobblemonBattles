@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "safecobblemonbattles",
+	"version": "${version}",
+	"name": "Safe Cobblemon Battles",
+	"description": "Stops players from taking damage while in a Cobblemon battle.",
+	"authors": [
+		"Elephant_1214"
+	],
+	"contact": {
+		"sources": "https://github.com/Elephant1214/SafeCobblemonBattles"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/safecobblemonbattles/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "me.elephant1214.safecobblemonbattles.SafeCobblemonBattles",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.22",
+		"cobblemon": ">=1.4.0"
+	}
+}
